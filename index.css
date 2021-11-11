@@ -1,0 +1,49 @@
+@media print {
+  img,
+  footer#footer,
+  #mega-menu-target,
+  #site-main > div.site-bar,
+  #site-main > header.main,
+  .details-container-aside,
+  .body-rpgrace .page-header,
+  .body-rpgrace blockquote,
+  .body-rpgrace-details .page-header,
+  .body-rpgrace-details blockquote,
+  .body-rpgvehicle  .page-header,
+  .body-rpgvehicle-details .page-header,
+  .body-rpgmonster .page-header,
+  .body-rpgmonster-details .page-header,
+  .compendium-header-subtitle,
+  aside,
+  .details-aside,
+  .p-article-header,
+  .notes-string,
+  .tags {
+    display: none !important;
+  }
+
+ .detail-content {
+    max-width: none ;
+    min-width: none;
+    width: 100% !important;
+  }
+
+  .page-header,
+  .page-heading,
+  .page-title {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .source-summary {
+    position: absolute !important;
+    left: 0 !important;
+  }
+
+  .more-info.details-more-info > div > footer *,
+  .more-info.details-more-info > div > footer {
+    text-align: left !important;
+    margin-left: 0 !important;
+    
+  }
+}

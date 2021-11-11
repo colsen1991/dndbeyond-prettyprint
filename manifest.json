@@ -1,0 +1,22 @@
+{
+  "name": "D&D Beyond PrettyPrint",
+  "description": "Prettier printing for your resources on D&D Beyond",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/dnd-pp-logo-16.png",
+    "32": "images/dnd-pp-logo-32.png",
+    "48": "images/dnd-pp-logo-48.png",
+    "128": "images/dnd-pp-logo-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.dndbeyond.com/*"
+      ],
+      "css": [
+        "index.css"
+      ]
+    }
+  ]
+}
