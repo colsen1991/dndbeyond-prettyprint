@@ -1,6 +1,6 @@
 # D&D Beyond PrettyPring
 
-## Prettier printing for your resources on D&D Beyond
+> Prettier printing for your resources on D&D Beyond
 
 A minimalistic extension which makes paper and PDF prints from D&D Beyond a little prettier.
 
